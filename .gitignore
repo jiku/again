@@ -1,0 +1,5 @@
+Dockerfile
+**/.imdone
+node_modules/
+src.git
+**/*.log

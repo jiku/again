@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "ctrl/node/start.js",
+    "test": "ctrl/node/test.js",
+    "deploy": "cd ctrl/node/deploy/MupX && mupx deploy",
+    "fwd": "ctrl/node/fwd.js"
+  }
+}

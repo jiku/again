@@ -1,0 +1,4 @@
+[submodule "src"]
+	path = src
+	url = ../repos/src.git
+	ignore = dirty
