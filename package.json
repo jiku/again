@@ -2,8 +2,10 @@
   "private": true,
   "scripts": {
     "start": "ctrl/node/start.js",
+    "start": "cd src && ROOT_URL=http://dev.jiku/again/ meteor --port 7777 --settings dev.json",
     "test": "ctrl/node/test.js",
     "deploy": "cd ctrl/node/deploy/MupX && mupx deploy",
+    "deploy-galaxy": "cd src && DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy jiku.meteorapp.com --settings pro-galaxy.json",
     "fwd": "ctrl/node/fwd.js"
   }
 }
